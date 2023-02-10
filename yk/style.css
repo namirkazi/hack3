@@ -1,0 +1,49 @@
+.top {
+    padding: 50px;
+    font-family: italian Style;
+    font-size: 50px;
+    color: white;
+}
+
+.imag {
+    float: right;
+}
+
+p {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fcdb35;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: lightgrey;
+}
+
+.footer {
+    border: 0px solid grey;
+    background-color: lightgrey;
+    width: 100%;
+    float: left;
+    bottom: 0px;
+    text-align: center;
+    font-family: bookman old style;
+    font-size: 20px;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        form {
+            width: 30%;
+            text-align: center;
+        }
+        
+        legend {
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+        }
+        
+        input[type=text],
+        input[type=email],
+        select,
+        textarea {
+            width: 90%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        
+        input[type=date] {
+            width: 50%;
+            padding: 12px 15px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        
+        input[type=radio] {
+            width: 10%;
+        }
+        
+        input[type=reset],
+        input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            width: 35%;
+            font-family: Bookman Old Style;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body bgcolor="black">
+
+    <div class="header">
+        <h1 class="top">Volunteer
+            <img src="icon.jpg" class="imag" style="width:10%;"></h1>
+    </div>
+
+    <div class="nav">
+        <ul>
+            <li><a href="cycle.html">Home</a></li>
+            <li><a href="model.html">Organizations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li style="float:right;"><a href="signin.html">SignIn</a></li>
+            <li style="float:right;"><a href="registration.html">Register</a></li>
+        </ul>
+    </div>
+
+    <center>
+        <form>
+            <br>
+            <fieldset style="background-color:rgb(200,200,200);">
+
+
+                <br> First Name:<br>
+                <input type="text" placeholder="Enter your FirstName" name="fname" required><br><br> Last Name:<br>
+                <input type="text" placeholder="Enter your LastName" name="Lname" required><br><br> Gender:
+                <br><input type="radio" name="gender" values="Male">Male
+                <input type="radio" name="gender" values="Female">Female
+                <br><br> BirthDate:
+
+                <br>
+                <input type="date" name="date" required>
+                <br><br> Email:
+
+                <br>
+                <input type="email" name="email" placeholder="Enter your EmailID" required><br><br> Phone No.:<br><input type="text" name="number" parttern="[0-9]{10}" placeholder="Enter your Number" required><br><br>
+
+                <br><br> Summary:
+
+                <br>
+                <textarea name="message" rows="5" cols="30" placeholder="Enter your Personal Details" required></textarea>
+                <br>
+                <br>
+
+                <input type="submit" value="Submit" href="#">
+                <input type="reset" value="Reset">
+
+            </fieldset>
+
+        </form>
+    </center>
+    </div>
+
+    <div class="footer">
+        <h5></h5>
+
+    </div>
+</body>
+<style>
+body {
+  background-image: url('back2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</html>
